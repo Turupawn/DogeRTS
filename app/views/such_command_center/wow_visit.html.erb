@@ -1,0 +1,32 @@
+
+<% u = User.find_by_id(params[:id].to_i) %>
+
+<h2><a href="/">much back</a>
+<h2><%= u.name %></h2>
+<p>energy: <%= u.energy %></p>
+<p>units: <%= u.units %></p>
+
+<table align="center">
+  <% for i in 0..8%>
+    <% if i%3==0 %>
+	<tr>
+    <% end %>
+      <% b=VeryBuilding.where(:user_id=>u.id,:position=>i)[0] %>
+      <% if b==nil || b.hp<=0 %>
+          <td align="center">
+            <!--<a href = "/"><img src="/images/Empty.png" ></a>-->
+          </td>
+      <% else%>
+	  <td align="center"><a href = "/"><img src="/images/<%= b.such_type %>.png" ></a>
+		<table align="center">
+			<tr>
+			  <td>much hp: <%= b.hp%></td>
+			</tr>
+		</table>
+	  </td>
+      <%end%>
+    <% if i%3==2 %>
+	</tr>
+    <% end %>
+  <% end %>
+</table>

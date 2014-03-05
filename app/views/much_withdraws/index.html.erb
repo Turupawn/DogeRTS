@@ -1,0 +1,31 @@
+<h1>Listing much_withdraws</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Building</th>
+      <th>Such date</th>
+      <th>Amount</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @much_withdraws.each do |much_withdraw| %>
+      <tr>
+        <td><%= much_withdraw.building_id %></td>
+        <td><%= much_withdraw.such_date %></td>
+        <td><%= much_withdraw.amount %></td>
+        <td><%= link_to 'Show', much_withdraw %></td>
+        <td><%= link_to 'Edit', edit_much_withdraw_path(much_withdraw) %></td>
+        <td><%= link_to 'Destroy', much_withdraw, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Much withdraw', new_much_withdraw_path %>

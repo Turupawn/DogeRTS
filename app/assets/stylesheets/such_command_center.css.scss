@@ -1,0 +1,43 @@
+// Place all the styles related to the SuchCommandCenter controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+	body{
+		text-align: center;   
+        background: black;
+        color:white;
+        font-family: Comic sans MS;
+		background:url("http://webtaj.com/images/moon-night_238743.jpg");
+		background-size: cover;
+     	background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+	}
+	div{
+		
+			height:18px;
+			width:260px;
+			text-align:center;
+			background-color:brown;
+			color:black;
+		
+	}
+
+	a{
+		text-decoration:none;
+	}
+
+	span{
+		text-align:right;
+
+	}
+	h1{
+	text-align:center;
+	}
+	p{
+	
+	size:18px;
+	}
+	table{
+		display=inline-block;
+		float=center;
+	}

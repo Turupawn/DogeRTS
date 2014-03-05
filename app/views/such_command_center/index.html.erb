@@ -1,0 +1,125 @@
+<p id="notice"><%= notice %></p>
+<h1>very RTS</h1>
+
+<% if current_user %>
+<p>such name: <%= current_user.name %><p>
+<p>very energy: <%= current_user.energy %><p>
+<p>wow! units: <%= current_user.units %><p>
+<% if VeryLoot.where(:user_id => current_user.id).last != nil %>
+  <% if VeryLoot.where(:user_id => current_user.id).last.such_date + 2*60*60 - Time.zone.now.to_datetime > 0%>
+  <p>loot again in <%= VeryLoot.where(:user_id => current_user.id).last.such_date + 2*60*60 - Time.zone.now.to_datetime %> seconds</p>
+  <% else %>
+  <p>loot ready</p>
+
+  <%= form_for(VeryLoot.new) do |f| %>
+    <%= f.submit "much energy loot"%>
+  <% end %>
+
+  <% end %>
+<% else %>
+  <p>loot 200 energy each 2 hours</p>
+
+  <%= form_for(VeryLoot.new) do |f| %>
+      <%= f.submit "much energy loot"%>
+  <% end %>
+
+<%end %>
+
+<table align="center">
+  <% for i in 0..8%>
+    <% if i%3==0 %>
+	<tr>
+    <% end %>
+      <% b=VeryBuilding.where(:user_id=>current_user.id,:position=>i)[0] %>
+      <% if b==nil || b.hp<=0 %>
+          <td align="center">
+            <!--<a href = "/"><img src="/images/Empty.png" ></a>-->
+            <% type=["SuchGenerator","ShibeBarracks","MuchDefense"]%>
+            <% for j in 0..2 %>
+  	      <%= form_for(VeryBuilding.new) do |f| %>
+                <div class="actions">
+                  <%= hidden_field_tag "position", i.to_s %>
+                  <%= hidden_field_tag "such_type", type[j] %>
+                  <%= f.submit "create"+type[j]+" for 1k energy" %>
+                </div>
+              <% end %>
+            <% end %>
+          </td>
+      <% else%>
+	  <td align="center"><a href = "/"><img src="/images/<%= b.such_type %>.png" ></a>
+		<table align="center">
+			<tr>
+			  <td>much hp: <%= b.hp%></td>
+			</tr>
+			<% if b.such_type == "SuchGenerator" %>
+			  <tr>
+			    <td>
+                              <% last_withdraw = MuchWithdraw.where(:building_id => b.id).last %>
+                              <%  remaining = 1000 %>
+                              <% if last_withdraw != nil %>
+			        <% remaining= last_withdraw.such_date + 2*60*60 - Time.zone.now.to_datetime %>
+                              <% end %>
+                              <% if remaining <= 0 || last_withdraw==nil %>
+			        <%= form_for(MuchWithdraw.new) do |f| %>
+				    <%= hidden_field_tag "building_id", b.id.to_s %>
+			            <div class="actions">
+				      <%= f.submit "so energy much withdraw" %>
+			  	    </div>
+			        <% end %>
+                              <%else%>
+                                <p>withdraw again in <%=remaining%></p>
+                              <% end %>
+			    </td>
+			  </tr>
+			<% elsif b.such_type == "ShibeBarracks" %>
+			  <tr>
+			    <td>
+                              <% last_withdraw = MuchWithdraw.where(:building_id => b.id).last %>
+                              <%  remaining = 1000 %>
+                              <% if last_withdraw != nil %>
+                                <% remaining= last_withdraw.such_date + 2*60*60 - Time.zone.now.to_datetime %>
+                              <% end %>
+
+                              <% if current_user.energy<100 %>
+                                <p> many 100 energy so required </p>
+                              <% elsif remaining <= 0 || last_withdraw==nil %>
+                                <%= form_for(MuchWithdraw.new) do |f| %>
+                                    <%= hidden_field_tag "building_id", b.id.to_s %>
+                                    <div class="actions">
+                                      <%= f.submit "so units much withdraw"%>
+                                    </div>
+                                <% end %>
+                              <%else%>
+                                <p>withdraw again in <%=remaining%></p>
+                              <% end %>
+                            </td>
+			  </tr>
+			<% end %>
+		</table>
+	  </td>
+      <%end%>
+    <% if i%3==2 %>
+	</tr>
+    <% end %>
+  <% end %>
+</table>
+
+<p>--------------------------------------------</p>
+
+<table  border="1" align="center">
+    <tr>
+      <th >wow user</th>
+      <th >very energy </th>
+      <th >wow! units </th>
+    </tr>
+    <% User.order("(energy+units*10) DESC").each do |u| %>
+    <tr>    	
+      <td><%= u.name%></td>
+      <td><%= u.energy %></td>
+      <td><%= u.units %></td>
+      <td><a href="/such_command_center/wow_visit/<%= u.id %>">shibe visit</a>
+    </tr>
+    <% end %>
+  </table>
+
+<% end %>

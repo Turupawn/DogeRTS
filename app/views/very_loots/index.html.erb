@@ -1,0 +1,31 @@
+<h1>Listing very_loots</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>User</th>
+      <th>Amount</th>
+      <th>Such date</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @very_loots.each do |very_loot| %>
+      <tr>
+        <td><%= very_loot.user_id %></td>
+        <td><%= very_loot.amount %></td>
+        <td><%= very_loot.such_date %></td>
+        <td><%= link_to 'Show', very_loot %></td>
+        <td><%= link_to 'Edit', edit_very_loot_path(very_loot) %></td>
+        <td><%= link_to 'Destroy', very_loot, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Very loot', new_very_loot_path %>

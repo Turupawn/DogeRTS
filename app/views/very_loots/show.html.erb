@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>User:</strong>
+  <%= @very_loot.user_id %>
+</p>
+
+<p>
+  <strong>Amount:</strong>
+  <%= @very_loot.amount %>
+</p>
+
+<p>
+  <strong>Such date:</strong>
+  <%= @very_loot.such_date %>
+</p>
+
+<%= link_to 'Edit', edit_very_loot_path(@very_loot) %> |
+<%= link_to 'Back', very_loots_path %>

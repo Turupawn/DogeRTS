@@ -1,0 +1,2 @@
+module VeryLootsHelper
+end

@@ -1,0 +1,33 @@
+<%= form_for(@very_building) do |f| %>
+  <% if @very_building.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@very_building.errors.count, "error") %> prohibited this very_building from being saved:</h2>
+
+      <ul>
+      <% @very_building.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :user_id %><br>
+    <%= f.number_field :user_id %>
+  </div>
+  <div class="field">
+    <%= f.label :such_type %><br>
+    <%= f.text_field :such_type %>
+  </div>
+  <div class="field">
+    <%= f.label :position %><br>
+    <%= f.number_field :position %>
+  </div>
+  <div class="field">
+    <%= f.label :hp %><br>
+    <%= f.number_field :hp %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>User:</strong>
+  <%= @very_building.user_id %>
+</p>
+
+<p>
+  <strong>Such type:</strong>
+  <%= @very_building.such_type %>
+</p>
+
+<p>
+  <strong>Position:</strong>
+  <%= @very_building.position %>
+</p>
+
+<p>
+  <strong>Hp:</strong>
+  <%= @very_building.hp %>
+</p>
+
+<%= link_to 'Edit', edit_very_building_path(@very_building) %> |
+<%= link_to 'Back', very_buildings_path %>

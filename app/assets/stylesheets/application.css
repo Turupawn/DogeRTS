@@ -1,0 +1,58 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require_tree .
+ */
+
+= require_self
+= require_tree
+
+	body{
+		text-align: center;   
+        background: black;
+        color:white;
+        font-family: Comic sans MS;
+		background:url("http://webtaj.com/images/moon-night_238743.jpg");
+		background-size: cover;
+     	background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+	}
+	div{
+		
+			height:18px;
+			width:260px;
+			text-align:center;
+			background-color:brown;
+			color:black;
+		
+	}
+
+	a{
+		text-decoration:none;
+	}
+
+	span{
+		text-align:right;
+
+	}
+	h1{
+	text-align:center;
+	}
+	p{
+	
+	size:18px;
+	}
+	table{
+		display=inline-block;
+		float=center;
+	}
+	

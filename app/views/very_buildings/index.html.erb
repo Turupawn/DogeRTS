@@ -1,0 +1,33 @@
+<h1>Listing very_buildings</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>User</th>
+      <th>Such type</th>
+      <th>Position</th>
+      <th>Hp</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @very_buildings.each do |very_building| %>
+      <tr>
+        <td><%= very_building.user_id %></td>
+        <td><%= very_building.such_type %></td>
+        <td><%= very_building.position %></td>
+        <td><%= very_building.hp %></td>
+        <td><%= link_to 'Show', very_building %></td>
+        <td><%= link_to 'Edit', edit_very_building_path(very_building) %></td>
+        <td><%= link_to 'Destroy', very_building, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Very building', new_very_building_path %>

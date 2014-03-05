@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  building_id: 1
+  such_date: 2014-02-25 03:00:41
+  amount: 1
+
+two:
+  building_id: 1
+  such_date: 2014-02-25 03:00:41
+  amount: 1

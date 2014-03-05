@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ7jnpqZvcjMPU6Q-7caLzalXPrOeL_c1kIVRDnN05-ymzbA_as">
+<head>
+<%= stylesheet_link_tag    "scaffolds", media: "all", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <%= csrf_meta_tags %>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+</script>
+<script>
+$("#new_very_loot").on("submit", function(){
+  alert("testa");
+  $("input:submit").prop("disabled", true)
+});
+</script>
+
+	<title>very doge such rts</title>
+</head>
+<body>
+
+<div id="user-widget">
+</div>
+  <% if current_user %>
+    very welcome <strong><%= current_user.name %></strong>!
+    <%= link_to "much sign out", signout_path, id: "sign_out" %>
+
+    <%= yield %>
+
+  <% else %>
+    <h1><%= link_to "pls facebook", "/auth/facebook", id: "sign_in" %></h1>
+    <img src="images/logo_home.png" href="/auth/facebook"/>
+  <% end %>
+
+
+</body>
+</html>
