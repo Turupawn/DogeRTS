@@ -2,9 +2,13 @@
 <h1>very RTS</h1>
 
 <% if current_user %>
+<% current_rank = current_user.getRank(current_user.id) %>
+<% current_score = current_user.energy+current_user.units*10 %>
 <p>such name: <%= current_user.name %><p>
 <p>very energy: <%= current_user.energy %><p>
 <p>wow! units: <%= current_user.units %><p>
+<p>such rank: <%= current_rank %><p>
+<p>many score: <%= current_score %></p>
 <% if VeryLoot.where(:user_id => current_user.id).last != nil %>
   <% if VeryLoot.where(:user_id => current_user.id).last.such_date + 2*60*60 - Time.zone.now.to_datetime > 0%>
   <p>loot again in <%= VeryLoot.where(:user_id => current_user.id).last.such_date + 2*60*60 - Time.zone.now.to_datetime %> seconds</p>
@@ -109,16 +113,25 @@
 <table  border="1" align="center">
     <tr>
       <th >wow user</th>
+      <th >such rank</th>
       <th >very energy </th>
       <th >wow! units </th>
+      <th >many score</th>
     </tr>
-    <% User.order("(energy+units*10) DESC").each do |u| %>
-    <tr>    	
-      <td><%= u.name%></td>
-      <td><%= u.energy %></td>
-      <td><%= u.units %></td>
-      <td><a href="/such_command_center/wow_visit/<%= u.id %>">shibe visit</a>
-    </tr>
+    <% very_offset = 1000 %>
+    <% User.where("energy+units*10>"+current_score.to_s+"-"+very_offset.to_s+" AND energy+units*10<"+current_score.to_s+"+"+very_offset.to_s).limit(10).each do |u| %>
+      <% rival_rank = u.getRank(u.id) %>
+      <% rival_score = u.energy+u.units*10 %>
+      <% if current_rank==rival_rank %>
+        <tr>    	
+          <td><%= u.name%></td>
+          <td><%= rival_rank %></td>
+          <td><%= u.energy %></td>
+          <td><%= u.units %></td>
+          <td><%= rival_score %></td>
+          <td><a href="/such_command_center/wow_visit/<%= u.id %>">shibe visit</a>
+        </tr>
+      <% end %>
     <% end %>
   </table>
 

@@ -37160,3 +37160,861 @@ I, [2014-03-05T23:11:15.099221 #14949]  INFO -- : Processing by SuchCommandCente
 I, [2014-03-05T23:11:15.147761 #14949]  INFO -- :   Rendered such_command_center/index.html.erb within layouts/application (44.6ms)
 I, [2014-03-05T23:11:15.150584 #14949]  INFO -- : Completed 200 OK in 51ms (Views: 41.9ms | ActiveRecord: 6.6ms)
 I, [2014-03-05T23:11:15.312678 #14946]  INFO -- : Started GET "/assets/scaffolds-ba9867be7e07780f1577af65144b7bfe.css" for 190.5.122.98 at 2014-03-05 23:11:15 +0000
+I, [2014-03-05T23:24:43.246373 #14949]  INFO -- : Started GET "/" for 190.5.122.98 at 2014-03-05 23:24:43 +0000
+I, [2014-03-05T23:24:43.254498 #14949]  INFO -- : Processing by SuchCommandCenterController#index as HTML
+I, [2014-03-05T23:24:43.298176 #14949]  INFO -- :   Rendered such_command_center/index.html.erb within layouts/application (39.6ms)
+I, [2014-03-05T23:24:43.300675 #14949]  INFO -- : Completed 200 OK in 46ms (Views: 36.7ms | ActiveRecord: 6.6ms)
+I, [2014-03-05T23:24:43.454438 #14946]  INFO -- : Started GET "/assets/scaffolds-ba9867be7e07780f1577af65144b7bfe.css" for 190.5.122.98 at 2014-03-05 23:24:43 +0000
+I, [2014-03-05T23:24:51.371778 #14949]  INFO -- : Started GET "/such_command_center/wow_visit/2" for 190.5.122.98 at 2014-03-05 23:24:51 +0000
+I, [2014-03-05T23:24:51.373926 #14949]  INFO -- : Processing by SuchCommandCenterController#wow_visit as HTML
+I, [2014-03-05T23:24:51.374045 #14949]  INFO -- :   Parameters: {"id"=>"2"}
+I, [2014-03-05T23:24:51.382373 #14949]  INFO -- :   Rendered such_command_center/wow_visit.html.erb within layouts/application (7.2ms)
+I, [2014-03-05T23:24:51.384486 #14949]  INFO -- : Completed 200 OK in 10ms (Views: 7.1ms | ActiveRecord: 2.5ms)
+I, [2014-03-05T23:24:51.532307 #14946]  INFO -- : Started GET "/assets/scaffolds-ba9867be7e07780f1577af65144b7bfe.css" for 190.5.122.98 at 2014-03-05 23:24:51 +0000
+I, [2014-03-05T23:24:55.690839 #14946]  INFO -- : Started GET "/" for 190.5.122.98 at 2014-03-05 23:24:55 +0000
+I, [2014-03-05T23:24:55.696271 #14946]  INFO -- : Processing by SuchCommandCenterController#index as HTML
+I, [2014-03-05T23:24:55.745329 #14946]  INFO -- :   Rendered such_command_center/index.html.erb within layouts/application (44.9ms)
+I, [2014-03-05T23:24:55.747869 #14946]  INFO -- : Completed 200 OK in 51ms (Views: 40.9ms | ActiveRecord: 7.6ms)
+I, [2014-03-05T23:24:55.906762 #14949]  INFO -- : Started GET "/assets/scaffolds-ba9867be7e07780f1577af65144b7bfe.css" for 190.5.122.98 at 2014-03-05 23:24:55 +0000
+I, [2014-03-05T23:27:22.113192 #14949]  INFO -- : Started GET "/" for 186.2.136.136 at 2014-03-05 23:27:22 +0000
+I, [2014-03-05T23:27:22.115167 #14949]  INFO -- : Processing by SuchCommandCenterController#index as HTML
+I, [2014-03-05T23:27:22.153935 #14949]  INFO -- :   Rendered such_command_center/index.html.erb within layouts/application (37.3ms)
+I, [2014-03-05T23:27:22.155396 #14949]  INFO -- : Completed 200 OK in 40ms (Views: 34.9ms | ActiveRecord: 4.2ms)
+I, [2014-03-05T23:27:22.714603 #14946]  INFO -- : Started GET "/assets/scaffolds-ba9867be7e07780f1577af65144b7bfe.css" for 186.2.136.136 at 2014-03-05 23:27:22 +0000
+I, [2014-03-05T23:28:04.674535 #14949]  INFO -- : Started POST "/very_loots" for 186.2.136.136 at 2014-03-05 23:28:04 +0000
+I, [2014-03-05T23:28:04.676295 #14949]  INFO -- : Processing by VeryLootsController#create as HTML
+I, [2014-03-05T23:28:04.676387 #14949]  INFO -- :   Parameters: {"utf8"=>"✓", "authenticity_token"=>"0ZRXuxj6RgrQH09LzYjmrqONJa9eEJJcZUhR1QhYA4c=", "commit"=>"much energy loot"}
+I, [2014-03-05T23:28:04.703331 #14949]  INFO -- : Redirected to http://www.dogefun.com/
+I, [2014-03-05T23:28:04.703605 #14949]  INFO -- : Completed 302 Found in 27ms (ActiveRecord: 19.3ms)
+I, [2014-03-05T23:28:05.033061 #14946]  INFO -- : Started GET "/" for 186.2.136.136 at 2014-03-05 23:28:05 +0000
+I, [2014-03-05T23:28:05.034879 #14946]  INFO -- : Processing by SuchCommandCenterController#index as HTML
+I, [2014-03-05T23:28:05.064585 #14946]  INFO -- :   Rendered such_command_center/index.html.erb within layouts/application (28.4ms)
+I, [2014-03-05T23:28:05.065770 #14946]  INFO -- : Completed 200 OK in 31ms (Views: 26.3ms | ActiveRecord: 3.5ms)
+I, [2014-03-05T23:28:08.553489 #14949]  INFO -- : Started POST "/much_withdraws" for 186.2.136.136 at 2014-03-05 23:28:08 +0000
+I, [2014-03-05T23:28:08.556005 #14949]  INFO -- : Processing by MuchWithdrawsController#create as HTML
+I, [2014-03-05T23:28:08.556111 #14949]  INFO -- :   Parameters: {"utf8"=>"✓", "authenticity_token"=>"0ZRXuxj6RgrQH09LzYjmrqONJa9eEJJcZUhR1QhYA4c=", "building_id"=>"17", "commit"=>"so units much withdraw"}
+I, [2014-03-05T23:28:08.575956 #14949]  INFO -- : Redirected to http://www.dogefun.com/
+I, [2014-03-05T23:28:08.576280 #14949]  INFO -- : Completed 302 Found in 20ms (ActiveRecord: 11.6ms)
+I, [2014-03-05T23:28:08.873046 #14946]  INFO -- : Started GET "/" for 186.2.136.136 at 2014-03-05 23:28:08 +0000
+I, [2014-03-05T23:28:08.875162 #14946]  INFO -- : Processing by SuchCommandCenterController#index as HTML
+I, [2014-03-05T23:28:08.914171 #14946]  INFO -- :   Rendered such_command_center/index.html.erb within layouts/application (37.5ms)
+I, [2014-03-05T23:28:08.915664 #14946]  INFO -- : Completed 200 OK in 40ms (Views: 34.9ms | ActiveRecord: 4.4ms)
+I, [2014-03-05T23:28:11.413425 #14949]  INFO -- : Started POST "/much_withdraws" for 186.2.136.136 at 2014-03-05 23:28:11 +0000
+I, [2014-03-05T23:28:11.415703 #14949]  INFO -- : Processing by MuchWithdrawsController#create as HTML
+I, [2014-03-05T23:28:11.415811 #14949]  INFO -- :   Parameters: {"utf8"=>"✓", "authenticity_token"=>"0ZRXuxj6RgrQH09LzYjmrqONJa9eEJJcZUhR1QhYA4c=", "building_id"=>"16", "commit"=>"so energy much withdraw"}
+I, [2014-03-05T23:28:11.438122 #14949]  INFO -- : Redirected to http://www.dogefun.com/
+I, [2014-03-05T23:28:11.438469 #14949]  INFO -- : Completed 302 Found in 22ms (ActiveRecord: 14.1ms)
+I, [2014-03-05T23:28:11.733078 #14946]  INFO -- : Started GET "/" for 186.2.136.136 at 2014-03-05 23:28:11 +0000
+I, [2014-03-05T23:28:11.735256 #14946]  INFO -- : Processing by SuchCommandCenterController#index as HTML
+I, [2014-03-05T23:28:11.859854 #14946]  INFO -- :   Rendered such_command_center/index.html.erb within layouts/application (122.7ms)
+I, [2014-03-05T23:28:11.866689 #14946]  INFO -- : Completed 200 OK in 131ms (Views: 125.2ms | ActiveRecord: 4.7ms)
+I, [2014-03-05T23:28:14.233535 #14949]  INFO -- : Started POST "/much_withdraws" for 186.2.136.136 at 2014-03-05 23:28:14 +0000
+I, [2014-03-05T23:28:14.235839 #14949]  INFO -- : Processing by MuchWithdrawsController#create as HTML
+I, [2014-03-05T23:28:14.235978 #14949]  INFO -- :   Parameters: {"utf8"=>"✓", "authenticity_token"=>"0ZRXuxj6RgrQH09LzYjmrqONJa9eEJJcZUhR1QhYA4c=", "building_id"=>"30", "commit"=>"so energy much withdraw"}
+I, [2014-03-05T23:28:14.258887 #14949]  INFO -- : Redirected to http://www.dogefun.com/
+I, [2014-03-05T23:28:14.259208 #14949]  INFO -- : Completed 302 Found in 23ms (ActiveRecord: 14.6ms)
+I, [2014-03-05T23:28:14.633489 #14946]  INFO -- : Started GET "/" for 186.2.136.136 at 2014-03-05 23:28:14 +0000
+I, [2014-03-05T23:28:14.636162 #14946]  INFO -- : Processing by SuchCommandCenterController#index as HTML
+I, [2014-03-05T23:28:14.677733 #14946]  INFO -- :   Rendered such_command_center/index.html.erb within layouts/application (39.6ms)
+I, [2014-03-05T23:28:14.679277 #14946]  INFO -- : Completed 200 OK in 43ms (Views: 37.5ms | ActiveRecord: 4.2ms)
+I, [2014-03-06T00:09:51.798040 #14949]  INFO -- : Started GET "/" for 190.5.75.41 at 2014-03-06 00:09:51 +0000
+I, [2014-03-06T00:09:51.803383 #14949]  INFO -- : Processing by SuchCommandCenterController#index as HTML
+I, [2014-03-06T00:09:51.805828 #14949]  INFO -- :   Rendered such_command_center/index.html.erb within layouts/application (0.4ms)
+I, [2014-03-06T00:09:51.807904 #14949]  INFO -- : Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.0ms)
+I, [2014-03-06T00:09:52.073715 #14946]  INFO -- : Started GET "/assets/scaffolds-ba9867be7e07780f1577af65144b7bfe.css" for 190.5.75.41 at 2014-03-06 00:09:52 +0000
+I, [2014-03-06T00:09:58.807224 #14949]  INFO -- : Started GET "/auth/facebook" for 190.5.75.41 at 2014-03-06 00:09:58 +0000
+I, [2014-03-06T00:09:58.808412 #14949]  INFO -- : (facebook) Request phase initiated.
+I, [2014-03-06T00:09:59.778297 #14946]  INFO -- : Started GET "/auth/facebook/callback?code=AQBTUWxFxrAK7c4mGTA6STK8fHLBmtimJQIXRiY4KDLXfLE-h3xRDn5c-3QfghuWpXm1_JqdfKjgCPTJbvfyO9ISjlRoBEZ8SrmvY1_Gi-2pYX3Om_Fy9j45nnWqJdZ_9NDswhSPPiejrzFKxV9Jl123YdStncCwvLJ72Pn388pR4NU3_FtPiSee1YxvLvAeXUgXL4V4R1h4fpZXK5plErELS_OycR4BxR0qPl25Ef2Evv0N0xy3s8SSACXMNVVm4irff8ASPqshjwnXCpQA5caoSOYQaZs0p3FKRGtAtqZsGTaDzeJQXeW0nxcvTR0jOn0" for 190.5.75.41 at 2014-03-06 00:09:59 +0000
+I, [2014-03-06T00:09:59.779347 #14946]  INFO -- : (facebook) Callback phase initiated.
+I, [2014-03-06T00:10:00.231421 #14946]  INFO -- : Processing by SessionsController#create as HTML
+I, [2014-03-06T00:10:00.231636 #14946]  INFO -- :   Parameters: {"code"=>"AQBTUWxFxrAK7c4mGTA6STK8fHLBmtimJQIXRiY4KDLXfLE-h3xRDn5c-3QfghuWpXm1_JqdfKjgCPTJbvfyO9ISjlRoBEZ8SrmvY1_Gi-2pYX3Om_Fy9j45nnWqJdZ_9NDswhSPPiejrzFKxV9Jl123YdStncCwvLJ72Pn388pR4NU3_FtPiSee1YxvLvAeXUgXL4V4R1h4fpZXK5plErELS_OycR4BxR0qPl25Ef2Evv0N0xy3s8SSACXMNVVm4irff8ASPqshjwnXCpQA5caoSOYQaZs0p3FKRGtAtqZsGTaDzeJQXeW0nxcvTR0jOn0", "provider"=>"facebook"}
+I, [2014-03-06T00:10:00.249233 #14946]  INFO -- : Redirected to http://www.dogefun.com/
+I, [2014-03-06T00:10:00.249713 #14946]  INFO -- : Completed 302 Found in 18ms (ActiveRecord: 10.2ms)
+I, [2014-03-06T00:10:00.434632 #14949]  INFO -- : Started GET "/" for 190.5.75.41 at 2014-03-06 00:10:00 +0000
+I, [2014-03-06T00:10:00.436942 #14949]  INFO -- : Processing by SuchCommandCenterController#index as HTML
+I, [2014-03-06T00:10:00.478245 #14949]  INFO -- :   Rendered such_command_center/index.html.erb within layouts/application (39.6ms)
+I, [2014-03-06T00:10:00.480036 #14949]  INFO -- : Completed 200 OK in 43ms (Views: 35.9ms | ActiveRecord: 5.9ms)
+I, [2014-03-06T00:10:00.793999 #14946]  INFO -- : Started GET "/assets/scaffolds-ba9867be7e07780f1577af65144b7bfe.css" for 190.5.75.41 at 2014-03-06 00:10:00 +0000
+I, [2014-03-06T00:10:05.244014 #14946]  INFO -- : Started GET "/such_command_center/wow_visit/3" for 190.5.75.41 at 2014-03-06 00:10:05 +0000
+I, [2014-03-06T00:10:05.246356 #14946]  INFO -- : Processing by SuchCommandCenterController#wow_visit as HTML
+I, [2014-03-06T00:10:05.247117 #14946]  INFO -- :   Parameters: {"id"=>"3"}
+I, [2014-03-06T00:10:05.258139 #14946]  INFO -- :   Rendered such_command_center/wow_visit.html.erb within layouts/application (8.7ms)
+I, [2014-03-06T00:10:05.260735 #14946]  INFO -- : Completed 200 OK in 13ms (Views: 9.5ms | ActiveRecord: 2.8ms)
+I, [2014-03-06T00:10:05.443466 #14949]  INFO -- : Started GET "/assets/scaffolds-ba9867be7e07780f1577af65144b7bfe.css" for 190.5.75.41 at 2014-03-06 00:10:05 +0000
+I, [2014-03-06T00:10:08.192677 #14949]  INFO -- : Started GET "/" for 190.5.75.41 at 2014-03-06 00:10:08 +0000
+I, [2014-03-06T00:10:08.194642 #14949]  INFO -- : Processing by SuchCommandCenterController#index as HTML
+I, [2014-03-06T00:10:08.227555 #14949]  INFO -- :   Rendered such_command_center/index.html.erb within layouts/application (31.5ms)
+I, [2014-03-06T00:10:08.228930 #14949]  INFO -- : Completed 200 OK in 34ms (Views: 28.4ms | ActiveRecord: 4.8ms)
+I, [2014-03-06T00:10:08.603371 #14946]  INFO -- : Started GET "/assets/scaffolds-ba9867be7e07780f1577af65144b7bfe.css" for 190.5.75.41 at 2014-03-06 00:10:08 +0000
+I, [2014-03-06T00:10:11.773591 #14946]  INFO -- : Started GET "/such_command_center/wow_visit/11" for 190.5.75.41 at 2014-03-06 00:10:11 +0000
+I, [2014-03-06T00:10:11.775602 #14946]  INFO -- : Processing by SuchCommandCenterController#wow_visit as HTML
+I, [2014-03-06T00:10:11.775699 #14946]  INFO -- :   Parameters: {"id"=>"11"}
+I, [2014-03-06T00:10:11.785021 #14946]  INFO -- :   Rendered such_command_center/wow_visit.html.erb within layouts/application (7.8ms)
+I, [2014-03-06T00:10:11.787488 #14946]  INFO -- : Completed 200 OK in 12ms (Views: 8.1ms | ActiveRecord: 2.6ms)
+I, [2014-03-06T00:10:11.958797 #14949]  INFO -- : Started GET "/assets/scaffolds-ba9867be7e07780f1577af65144b7bfe.css" for 190.5.75.41 at 2014-03-06 00:10:11 +0000
+I, [2014-03-06T00:10:14.788777 #14949]  INFO -- : Started GET "/" for 190.5.75.41 at 2014-03-06 00:10:14 +0000
+I, [2014-03-06T00:10:14.790688 #14949]  INFO -- : Processing by SuchCommandCenterController#index as HTML
+I, [2014-03-06T00:10:14.823442 #14949]  INFO -- :   Rendered such_command_center/index.html.erb within layouts/application (31.4ms)
+I, [2014-03-06T00:10:14.824876 #14949]  INFO -- : Completed 200 OK in 34ms (Views: 28.2ms | ActiveRecord: 4.9ms)
+I, [2014-03-06T00:10:15.489068 #14946]  INFO -- : Started GET "/assets/scaffolds-ba9867be7e07780f1577af65144b7bfe.css" for 190.5.75.41 at 2014-03-06 00:10:15 +0000
+I, [2014-03-06T00:27:56.489398 #14946]  INFO -- : Started GET "/" for 190.5.75.41 at 2014-03-06 00:27:56 +0000
+I, [2014-03-06T00:27:56.494907 #14946]  INFO -- : Processing by SuchCommandCenterController#index as HTML
+I, [2014-03-06T00:27:56.497974 #14946]  INFO -- :   Rendered such_command_center/index.html.erb within layouts/application (0.5ms)
+I, [2014-03-06T00:27:56.500251 #14946]  INFO -- : Completed 200 OK in 5ms (Views: 3.7ms | ActiveRecord: 0.0ms)
+I, [2014-03-06T00:28:01.273779 #14949]  INFO -- : Started GET "/auth/facebook" for 190.5.75.41 at 2014-03-06 00:28:01 +0000
+I, [2014-03-06T00:28:01.275414 #14949]  INFO -- : (facebook) Request phase initiated.
+I, [2014-03-06T00:28:02.226494 #14946]  INFO -- : Started GET "/auth/facebook/callback?code=AQBfZr3bG-odX9040xe8DZ2hGGefMPe77L6Kn-uZhzR6K3qstoBTUpiF8pVIyTwul2Zf7mrkSjlYYz9VIvjkTMAUPhmFjGUA3gMO43sN84h8ZPUvOO9laTp1KkAvrg8QMC28h0XpqxJqXUajkwrgcWYQkyUvntw5A77adfw-REHf_1Jhb7Xj9mwvp1uRRvaZzjW1pqdi6NAZAELb-LLdE7Bg4ZUKBJ_wJW-HXFVKlUrde_rnH3m-mmCYiIbSVhA7TtrjObKrIM5QyIsQW8lw4EdJI5GFnbAR-NkAEkiStH5CG1fnN8Z1Do31lptMPfAB7es" for 190.5.75.41 at 2014-03-06 00:28:02 +0000
+I, [2014-03-06T00:28:02.227379 #14946]  INFO -- : (facebook) Callback phase initiated.
+I, [2014-03-06T00:28:02.688253 #14946]  INFO -- : Processing by SessionsController#create as HTML
+I, [2014-03-06T00:28:02.688498 #14946]  INFO -- :   Parameters: {"code"=>"AQBfZr3bG-odX9040xe8DZ2hGGefMPe77L6Kn-uZhzR6K3qstoBTUpiF8pVIyTwul2Zf7mrkSjlYYz9VIvjkTMAUPhmFjGUA3gMO43sN84h8ZPUvOO9laTp1KkAvrg8QMC28h0XpqxJqXUajkwrgcWYQkyUvntw5A77adfw-REHf_1Jhb7Xj9mwvp1uRRvaZzjW1pqdi6NAZAELb-LLdE7Bg4ZUKBJ_wJW-HXFVKlUrde_rnH3m-mmCYiIbSVhA7TtrjObKrIM5QyIsQW8lw4EdJI5GFnbAR-NkAEkiStH5CG1fnN8Z1Do31lptMPfAB7es", "provider"=>"facebook"}
+I, [2014-03-06T00:28:02.701346 #14946]  INFO -- : Redirected to http://www.dogefun.com/
+I, [2014-03-06T00:28:02.701735 #14946]  INFO -- : Completed 302 Found in 13ms (ActiveRecord: 7.2ms)
+I, [2014-03-06T00:28:02.862949 #14949]  INFO -- : Started GET "/" for 190.5.75.41 at 2014-03-06 00:28:02 +0000
+I, [2014-03-06T00:28:02.865932 #14949]  INFO -- : Processing by SuchCommandCenterController#index as HTML
+I, [2014-03-06T00:28:02.898657 #14949]  INFO -- :   Rendered such_command_center/index.html.erb within layouts/application (30.8ms)
+I, [2014-03-06T00:28:02.901158 #14949]  INFO -- : Completed 200 OK in 35ms (Views: 29.2ms | ActiveRecord: 4.6ms)
+I, [2014-03-06T00:28:03.211353 #14946]  INFO -- : Started GET "/assets/scaffolds-ba9867be7e07780f1577af65144b7bfe.css" for 190.5.75.41 at 2014-03-06 00:28:03 +0000
+I, [2014-03-06T00:34:11.545424 #14949]  INFO -- : Started GET "/" for 184.95.40.147 at 2014-03-06 00:34:11 +0000
+I, [2014-03-06T00:34:11.547446 #14949]  INFO -- : Processing by SuchCommandCenterController#index as HTML
+I, [2014-03-06T00:34:11.548619 #14949]  INFO -- :   Rendered such_command_center/index.html.erb within layouts/application (0.2ms)
+I, [2014-03-06T00:34:11.550230 #14949]  INFO -- : Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.0ms)
+I, [2014-03-06T00:38:57.909783 #14946]  INFO -- : Started HEAD "/" for 185.37.224.9 at 2014-03-06 00:38:57 +0000
+I, [2014-03-06T00:38:57.911894 #14946]  INFO -- : Processing by SuchCommandCenterController#index as HTML
+I, [2014-03-06T00:38:57.913235 #14946]  INFO -- :   Rendered such_command_center/index.html.erb within layouts/application (0.1ms)
+I, [2014-03-06T00:38:57.914724 #14946]  INFO -- : Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+I, [2014-03-06T00:43:03.244376 #3906]  INFO -- : Started GET "/" for 190.5.75.41 at 2014-03-06 00:43:03 +0000
+I, [2014-03-06T00:43:03.263837 #3906]  INFO -- : Processing by SuchCommandCenterController#index as HTML
+I, [2014-03-06T00:43:03.406489 #3906]  INFO -- :   Rendered such_command_center/index.html.erb within layouts/application (115.9ms)
+I, [2014-03-06T00:43:03.406887 #3906]  INFO -- : Completed 500 Internal Server Error in 143ms
+F, [2014-03-06T00:43:03.411283 #3906] FATAL -- : 
+ActionView::Template::Error (uninitialized constant User::Building):
+    116:     <% User.order("(energy+units*10) DESC").each do |u| %>
+    117:     <tr>    	
+    118:       <td><%= u.name%></td>
+    119:       <td><%= u.getRank %></td>
+    120:       <td><%= u.energy %></td>
+    121:       <td><%= u.units %></td>
+    122:       <td><a href="/such_command_center/wow_visit/<%= u.id %>">shibe visit</a>
+  app/models/user.rb:3:in `getRank'
+  app/views/such_command_center/index.html.erb:119:in `block in _app_views_such_command_center_index_html_erb__3375285487444030896_44749260'
+  app/views/such_command_center/index.html.erb:116:in `_app_views_such_command_center_index_html_erb__3375285487444030896_44749260'
+
+
+I, [2014-03-06T00:43:27.557028 #3952]  INFO -- : Started GET "/" for 190.5.75.41 at 2014-03-06 00:43:27 +0000
+I, [2014-03-06T00:43:27.580060 #3952]  INFO -- : Processing by SuchCommandCenterController#index as HTML
+I, [2014-03-06T00:43:27.747943 #3952]  INFO -- :   Rendered such_command_center/index.html.erb within layouts/application (123.7ms)
+I, [2014-03-06T00:43:27.756359 #3952]  INFO -- : Completed 200 OK in 176ms (Views: 122.5ms | ActiveRecord: 12.4ms)
+I, [2014-03-06T00:43:28.076866 #3949]  INFO -- : Started GET "/assets/scaffolds-ba9867be7e07780f1577af65144b7bfe.css" for 190.5.75.41 at 2014-03-06 00:43:28 +0000
+I, [2014-03-06T00:44:07.291342 #3979]  INFO -- : Started GET "/" for 190.5.75.41 at 2014-03-06 00:44:07 +0000
+I, [2014-03-06T00:44:07.307517 #3979]  INFO -- : Processing by SuchCommandCenterController#index as HTML
+I, [2014-03-06T00:44:07.413844 #3979]  INFO -- :   Rendered such_command_center/index.html.erb within layouts/application (79.2ms)
+I, [2014-03-06T00:44:07.414140 #3979]  INFO -- : Completed 500 Internal Server Error in 106ms
+F, [2014-03-06T00:44:07.416957 #3979] FATAL -- : 
+ActionView::Template::Error (uninitialized constant User::Building):
+    116:     <% User.order("(energy+units*10) DESC").each do |u| %>
+    117:     <tr>    	
+    118:       <td><%= u.name%></td>
+    119:       <td><%= u.getRank %></td>
+    120:       <td><%= u.energy %></td>
+    121:       <td><%= u.units %></td>
+    122:       <td><a href="/such_command_center/wow_visit/<%= u.id %>">shibe visit</a>
+  app/models/user.rb:3:in `getRank'
+  app/views/such_command_center/index.html.erb:119:in `block in _app_views_such_command_center_index_html_erb___2693973806018416280_32739980'
+  app/views/such_command_center/index.html.erb:116:in `_app_views_such_command_center_index_html_erb___2693973806018416280_32739980'
+
+
+I, [2014-03-06T00:44:38.296483 #4070]  INFO -- : Started GET "/" for 190.5.75.41 at 2014-03-06 00:44:38 +0000
+I, [2014-03-06T00:44:38.316521 #4070]  INFO -- : Processing by SuchCommandCenterController#index as HTML
+I, [2014-03-06T00:44:38.481710 #4070]  INFO -- :   Rendered such_command_center/index.html.erb within layouts/application (121.2ms)
+I, [2014-03-06T00:44:38.482082 #4070]  INFO -- : Completed 500 Internal Server Error in 165ms
+F, [2014-03-06T00:44:38.486757 #4070] FATAL -- : 
+ActionView::Template::Error (uninitialized constant User::SuchBuilding):
+    116:     <% User.order("(energy+units*10) DESC").each do |u| %>
+    117:     <tr>    	
+    118:       <td><%= u.name%></td>
+    119:       <td><%= u.getRank %></td>
+    120:       <td><%= u.energy %></td>
+    121:       <td><%= u.units %></td>
+    122:       <td><a href="/such_command_center/wow_visit/<%= u.id %>">shibe visit</a>
+  app/models/user.rb:3:in `getRank'
+  app/views/such_command_center/index.html.erb:119:in `block in _app_views_such_command_center_index_html_erb___2396322718755987878_34058940'
+  app/views/such_command_center/index.html.erb:116:in `_app_views_such_command_center_index_html_erb___2396322718755987878_34058940'
+
+
+I, [2014-03-06T00:44:39.438627 #4067]  INFO -- : Started GET "/" for 190.5.75.41 at 2014-03-06 00:44:39 +0000
+I, [2014-03-06T00:44:39.459974 #4067]  INFO -- : Processing by SuchCommandCenterController#index as HTML
+I, [2014-03-06T00:44:39.627948 #4067]  INFO -- :   Rendered such_command_center/index.html.erb within layouts/application (123.7ms)
+I, [2014-03-06T00:44:39.628371 #4067]  INFO -- : Completed 500 Internal Server Error in 168ms
+F, [2014-03-06T00:44:39.633141 #4067] FATAL -- : 
+ActionView::Template::Error (uninitialized constant User::SuchBuilding):
+    116:     <% User.order("(energy+units*10) DESC").each do |u| %>
+    117:     <tr>    	
+    118:       <td><%= u.name%></td>
+    119:       <td><%= u.getRank %></td>
+    120:       <td><%= u.energy %></td>
+    121:       <td><%= u.units %></td>
+    122:       <td><a href="/such_command_center/wow_visit/<%= u.id %>">shibe visit</a>
+  app/models/user.rb:3:in `getRank'
+  app/views/such_command_center/index.html.erb:119:in `block in _app_views_such_command_center_index_html_erb___2396322718755987878_34058720'
+  app/views/such_command_center/index.html.erb:116:in `_app_views_such_command_center_index_html_erb___2396322718755987878_34058720'
+
+
+I, [2014-03-06T00:45:12.013850 #4100]  INFO -- : Started GET "/" for 190.5.75.41 at 2014-03-06 00:45:12 +0000
+I, [2014-03-06T00:45:12.034281 #4100]  INFO -- : Processing by SuchCommandCenterController#index as HTML
+I, [2014-03-06T00:45:12.199292 #4100]  INFO -- :   Rendered such_command_center/index.html.erb within layouts/application (121.4ms)
+I, [2014-03-06T00:45:12.207856 #4100]  INFO -- : Completed 200 OK in 173ms (Views: 120.0ms | ActiveRecord: 12.6ms)
+I, [2014-03-06T00:45:12.567000 #4097]  INFO -- : Started GET "/assets/scaffolds-ba9867be7e07780f1577af65144b7bfe.css" for 190.5.75.41 at 2014-03-06 00:45:12 +0000
+I, [2014-03-06T00:45:40.609046 #4130]  INFO -- : Started GET "/" for 190.5.75.41 at 2014-03-06 00:45:40 +0000
+I, [2014-03-06T00:45:40.621823 #4130]  INFO -- : Processing by SuchCommandCenterController#index as HTML
+I, [2014-03-06T00:45:40.729179 #4130]  INFO -- :   Rendered such_command_center/index.html.erb within layouts/application (82.1ms)
+I, [2014-03-06T00:45:40.734985 #4130]  INFO -- : Completed 200 OK in 113ms (Views: 81.7ms | ActiveRecord: 8.1ms)
+I, [2014-03-06T00:45:41.148609 #4127]  INFO -- : Started GET "/assets/scaffolds-ba9867be7e07780f1577af65144b7bfe.css" for 190.5.75.41 at 2014-03-06 00:45:41 +0000
+I, [2014-03-06T00:46:01.824315 #4157]  INFO -- : Started GET "/" for 190.5.75.41 at 2014-03-06 00:46:01 +0000
+I, [2014-03-06T00:46:01.843085 #4157]  INFO -- : Processing by SuchCommandCenterController#index as HTML
+I, [2014-03-06T00:46:01.994370 #4157]  INFO -- :   Rendered such_command_center/index.html.erb within layouts/application (112.1ms)
+I, [2014-03-06T00:46:02.002176 #4157]  INFO -- : Completed 200 OK in 159ms (Views: 111.2ms | ActiveRecord: 11.0ms)
+I, [2014-03-06T00:46:02.435574 #4160]  INFO -- : Started GET "/assets/scaffolds-ba9867be7e07780f1577af65144b7bfe.css" for 190.5.75.41 at 2014-03-06 00:46:02 +0000
+I, [2014-03-06T00:46:09.369152 #4157]  INFO -- : Started GET "/such_command_center/wow_visit/1" for 190.5.75.41 at 2014-03-06 00:46:09 +0000
+I, [2014-03-06T00:46:09.381098 #4157]  INFO -- : Processing by SuchCommandCenterController#wow_visit as HTML
+I, [2014-03-06T00:46:09.381251 #4157]  INFO -- :   Parameters: {"id"=>"1"}
+I, [2014-03-06T00:46:09.481933 #4157]  INFO -- :   Rendered such_command_center/wow_visit.html.erb within layouts/application (16.7ms)
+I, [2014-03-06T00:46:09.490228 #4157]  INFO -- : Completed 200 OK in 109ms (Views: 102.9ms | ActiveRecord: 3.4ms)
+I, [2014-03-06T00:46:09.852401 #4160]  INFO -- : Started GET "/assets/scaffolds-ba9867be7e07780f1577af65144b7bfe.css" for 190.5.75.41 at 2014-03-06 00:46:09 +0000
+I, [2014-03-06T00:46:14.079822 #4157]  INFO -- : Started GET "/" for 190.5.75.41 at 2014-03-06 00:46:14 +0000
+I, [2014-03-06T00:46:14.082457 #4157]  INFO -- : Processing by SuchCommandCenterController#index as HTML
+I, [2014-03-06T00:46:14.123898 #4157]  INFO -- :   Rendered such_command_center/index.html.erb within layouts/application (39.3ms)
+I, [2014-03-06T00:46:14.125416 #4157]  INFO -- : Completed 200 OK in 43ms (Views: 36.1ms | ActiveRecord: 5.2ms)
+I, [2014-03-06T00:46:14.521087 #4160]  INFO -- : Started GET "/assets/scaffolds-ba9867be7e07780f1577af65144b7bfe.css" for 190.5.75.41 at 2014-03-06 00:46:14 +0000
+I, [2014-03-06T00:46:15.908660 #4160]  INFO -- : Started GET "/" for 190.5.75.41 at 2014-03-06 00:46:15 +0000
+I, [2014-03-06T00:46:15.916981 #4160]  INFO -- : Processing by SuchCommandCenterController#index as HTML
+I, [2014-03-06T00:46:16.106376 #4160]  INFO -- :   Rendered such_command_center/index.html.erb within layouts/application (142.6ms)
+I, [2014-03-06T00:46:16.110502 #4160]  INFO -- : Completed 200 OK in 193ms (Views: 136.7ms | ActiveRecord: 14.0ms)
+I, [2014-03-06T00:46:16.468438 #4157]  INFO -- : Started GET "/assets/scaffolds-ba9867be7e07780f1577af65144b7bfe.css" for 190.5.75.41 at 2014-03-06 00:46:16 +0000
+I, [2014-03-06T00:46:17.715463 #4160]  INFO -- : Started GET "/" for 190.5.75.41 at 2014-03-06 00:46:17 +0000
+I, [2014-03-06T00:46:17.718675 #4160]  INFO -- : Processing by SuchCommandCenterController#index as HTML
+I, [2014-03-06T00:46:17.808394 #4160]  INFO -- :   Rendered such_command_center/index.html.erb within layouts/application (87.8ms)
+I, [2014-03-06T00:46:17.809892 #4160]  INFO -- : Completed 200 OK in 91ms (Views: 83.7ms | ActiveRecord: 6.1ms)
+I, [2014-03-06T00:46:18.247641 #4157]  INFO -- : Started GET "/assets/scaffolds-ba9867be7e07780f1577af65144b7bfe.css" for 190.5.75.41 at 2014-03-06 00:46:18 +0000
+I, [2014-03-06T00:46:19.421299 #4157]  INFO -- : Started GET "/" for 190.5.75.41 at 2014-03-06 00:46:19 +0000
+I, [2014-03-06T00:46:19.423338 #4157]  INFO -- : Processing by SuchCommandCenterController#index as HTML
+I, [2014-03-06T00:46:19.462413 #4157]  INFO -- :   Rendered such_command_center/index.html.erb within layouts/application (37.5ms)
+I, [2014-03-06T00:46:19.463941 #4157]  INFO -- : Completed 200 OK in 40ms (Views: 34.3ms | ActiveRecord: 5.2ms)
+I, [2014-03-06T00:46:19.846112 #4160]  INFO -- : Started GET "/assets/scaffolds-ba9867be7e07780f1577af65144b7bfe.css" for 190.5.75.41 at 2014-03-06 00:46:19 +0000
+I, [2014-03-06T00:50:42.591760 #4244]  INFO -- : Started GET "/" for 190.5.75.41 at 2014-03-06 00:50:42 +0000
+I, [2014-03-06T00:50:42.612181 #4244]  INFO -- : Processing by SuchCommandCenterController#index as HTML
+I, [2014-03-06T00:50:42.777163 #4244]  INFO -- :   Rendered such_command_center/index.html.erb within layouts/application (122.9ms)
+I, [2014-03-06T00:50:42.785577 #4244]  INFO -- : Completed 200 OK in 173ms (Views: 120.7ms | ActiveRecord: 13.3ms)
+I, [2014-03-06T00:50:43.202687 #4241]  INFO -- : Started GET "/assets/scaffolds-ba9867be7e07780f1577af65144b7bfe.css" for 190.5.75.41 at 2014-03-06 00:50:43 +0000
+I, [2014-03-06T00:50:45.159539 #4244]  INFO -- : Started GET "/" for 190.5.75.41 at 2014-03-06 00:50:45 +0000
+I, [2014-03-06T00:50:45.163751 #4244]  INFO -- : Processing by SuchCommandCenterController#index as HTML
+I, [2014-03-06T00:50:45.261771 #4244]  INFO -- :   Rendered such_command_center/index.html.erb within layouts/application (95.9ms)
+I, [2014-03-06T00:50:45.263819 #4244]  INFO -- : Completed 200 OK in 100ms (Views: 91.2ms | ActiveRecord: 7.2ms)
+I, [2014-03-06T00:50:45.617295 #4241]  INFO -- : Started GET "/assets/scaffolds-ba9867be7e07780f1577af65144b7bfe.css" for 190.5.75.41 at 2014-03-06 00:50:45 +0000
+I, [2014-03-06T00:55:35.467632 #4274]  INFO -- : Started GET "/" for 190.5.75.41 at 2014-03-06 00:55:35 +0000
+I, [2014-03-06T00:55:35.486810 #4274]  INFO -- : Processing by SuchCommandCenterController#index as HTML
+I, [2014-03-06T00:55:35.555067 #4274]  INFO -- :   Rendered such_command_center/index.html.erb within layouts/application (7.6ms)
+I, [2014-03-06T00:55:35.556396 #4274]  INFO -- : Completed 500 Internal Server Error in 69ms
+F, [2014-03-06T00:55:35.563867 #4274] FATAL -- : 
+ActionView::Template::Error (/home/rails/app/views/such_command_center/index.html.erb:118: syntax error, unexpected tIDENTIFIER, expecting keyword_then or ';' or '\n'
+       if current_rank == u.getRank u.id 
+                                     ^
+/home/rails/app/views/such_command_center/index.html.erb:132: syntax error, unexpected keyword_ensure, expecting end-of-input):
+    115:       <th >wow! units </th>
+    116:     </tr>
+    117:     <% User.order("(energy+units*10) DESC").each do |u| %>
+    118:       <% if current_rank == u.getRank u.id %>
+    119:         <tr>    	
+    120:           <td><%= u.name%></td>
+    121:           <td><%= u.getRank u.id %></td>
+  actionpack (4.0.2) lib/action_view/template.rb:299:in `module_eval'
+  actionpack (4.0.2) lib/action_view/template.rb:299:in `compile'
+  actionpack (4.0.2) lib/action_view/template.rb:248:in `block in compile!'
+  actionpack (4.0.2) lib/action_view/template.rb:236:in `synchronize'
+  actionpack (4.0.2) lib/action_view/template.rb:236:in `compile!'
+  actionpack (4.0.2) lib/action_view/template.rb:142:in `block in render'
+  activesupport (4.0.2) lib/active_support/notifications.rb:161:in `instrument'
+  actionpack (4.0.2) lib/action_view/template.rb:141:in `render'
+  actionpack (4.0.2) lib/action_view/renderer/template_renderer.rb:49:in `block (2 levels) in render_template'
+  actionpack (4.0.2) lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+  activesupport (4.0.2) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.0.2) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.0.2) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.0.2) lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+  actionpack (4.0.2) lib/action_view/renderer/template_renderer.rb:48:in `block in render_template'
+  actionpack (4.0.2) lib/action_view/renderer/template_renderer.rb:56:in `render_with_layout'
+  actionpack (4.0.2) lib/action_view/renderer/template_renderer.rb:47:in `render_template'
+  actionpack (4.0.2) lib/action_view/renderer/template_renderer.rb:17:in `render'
+  actionpack (4.0.2) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionpack (4.0.2) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionpack (4.0.2) lib/abstract_controller/rendering.rb:127:in `_render_template'
+  actionpack (4.0.2) lib/action_controller/metal/streaming.rb:219:in `_render_template'
+  actionpack (4.0.2) lib/abstract_controller/rendering.rb:120:in `render_to_body'
+  actionpack (4.0.2) lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+  actionpack (4.0.2) lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+  actionpack (4.0.2) lib/abstract_controller/rendering.rb:97:in `render'
+  actionpack (4.0.2) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.0.2) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /usr/local/rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/benchmark.rb:296:in `realtime'
+  activesupport (4.0.2) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.0.2) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.0.2) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.0.2) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.0.2) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.0.2) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.0.2) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:403:in `_run__3783933834249964448__process_action__callbacks'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.2) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (4.0.2) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.0.2) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.0.2) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.0.2) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.0.2) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+  activerecord (4.0.2) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.0.2) lib/abstract_controller/base.rb:136:in `process'
+  actionpack (4.0.2) lib/abstract_controller/rendering.rb:44:in `process'
+  actionpack (4.0.2) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.0.2) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.0.2) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.0.2) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.0.2) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.0.2) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.0.2) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.2) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.2) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.2) lib/action_dispatch/routing/route_set.rb:680:in `call'
+  omniauth (1.2.1) lib/omniauth/strategy.rb:186:in `call!'
+  omniauth (1.2.1) lib/omniauth/strategy.rb:164:in `call'
+  omniauth (1.2.1) lib/omniauth/builder.rb:59:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.2) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:373:in `_run__2347116628887151393__call__callbacks'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:580:in `process_client'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:660:in `worker_loop'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:527:in `spawn_missing_workers'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:153:in `start'
+  unicorn (4.7.0) bin/unicorn:126:in `<top (required)>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `load'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `<main>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `eval'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `<main>'
+
+
+I, [2014-03-06T00:58:14.601559 #4333]  INFO -- : Started GET "/" for 190.5.75.41 at 2014-03-06 00:58:14 +0000
+I, [2014-03-06T00:58:14.621393 #4333]  INFO -- : Processing by SuchCommandCenterController#index as HTML
+I, [2014-03-06T00:58:14.785037 #4333]  INFO -- :   Rendered such_command_center/index.html.erb within layouts/application (121.9ms)
+I, [2014-03-06T00:58:14.791039 #4333]  INFO -- : Completed 200 OK in 169ms (Views: 116.7ms | ActiveRecord: 13.7ms)
+I, [2014-03-06T00:58:15.095754 #4336]  INFO -- : Started GET "/assets/scaffolds-ba9867be7e07780f1577af65144b7bfe.css" for 190.5.75.41 at 2014-03-06 00:58:15 +0000
+I, [2014-03-06T00:59:06.964844 #4366]  INFO -- : Started GET "/" for 190.5.75.41 at 2014-03-06 00:59:06 +0000
+I, [2014-03-06T00:59:06.994921 #4366]  INFO -- : Processing by SuchCommandCenterController#index as HTML
+I, [2014-03-06T00:59:07.166560 #4366]  INFO -- :   Rendered such_command_center/index.html.erb within layouts/application (119.7ms)
+I, [2014-03-06T00:59:07.172967 #4366]  INFO -- : Completed 200 OK in 178ms (Views: 121.6ms | ActiveRecord: 10.5ms)
+I, [2014-03-06T00:59:07.517580 #4363]  INFO -- : Started GET "/assets/scaffolds-ba9867be7e07780f1577af65144b7bfe.css" for 190.5.75.41 at 2014-03-06 00:59:07 +0000
+I, [2014-03-06T00:59:55.803456 #4397]  INFO -- : Started GET "/" for 190.5.75.41 at 2014-03-06 00:59:55 +0000
+I, [2014-03-06T00:59:55.822989 #4397]  INFO -- : Processing by SuchCommandCenterController#index as HTML
+I, [2014-03-06T00:59:55.980823 #4397]  INFO -- :   Rendered such_command_center/index.html.erb within layouts/application (114.0ms)
+I, [2014-03-06T00:59:55.986638 #4397]  INFO -- : Completed 200 OK in 163ms (Views: 110.2ms | ActiveRecord: 12.3ms)
+I, [2014-03-06T00:59:56.437595 #4394]  INFO -- : Started GET "/assets/scaffolds-ba9867be7e07780f1577af65144b7bfe.css" for 190.5.75.41 at 2014-03-06 00:59:56 +0000
+I, [2014-03-06T01:00:32.008710 #4444]  INFO -- : Started GET "/" for 190.5.75.41 at 2014-03-06 01:00:32 +0000
+I, [2014-03-06T01:00:32.030456 #4444]  INFO -- : Processing by SuchCommandCenterController#index as HTML
+I, [2014-03-06T01:00:32.214730 #4444]  INFO -- :   Rendered such_command_center/index.html.erb within layouts/application (138.2ms)
+I, [2014-03-06T01:00:32.224093 #4444]  INFO -- : Completed 200 OK in 193ms (Views: 134.1ms | ActiveRecord: 16.2ms)
+I, [2014-03-06T01:00:32.560694 #4441]  INFO -- : Started GET "/assets/scaffolds-ba9867be7e07780f1577af65144b7bfe.css" for 190.5.75.41 at 2014-03-06 01:00:32 +0000
+I, [2014-03-06T01:01:37.014273 #4474]  INFO -- : Started GET "/" for 190.5.75.41 at 2014-03-06 01:01:37 +0000
+I, [2014-03-06T01:01:37.030996 #4474]  INFO -- : Processing by SuchCommandCenterController#index as HTML
+I, [2014-03-06T01:01:37.169250 #4474]  INFO -- :   Rendered such_command_center/index.html.erb within layouts/application (105.7ms)
+I, [2014-03-06T01:01:37.174955 #4474]  INFO -- : Completed 200 OK in 144ms (Views: 101.2ms | ActiveRecord: 12.2ms)
+I, [2014-03-06T01:01:37.569953 #4472]  INFO -- : Started GET "/assets/scaffolds-ba9867be7e07780f1577af65144b7bfe.css" for 190.5.75.41 at 2014-03-06 01:01:37 +0000
+I, [2014-03-06T01:03:02.020687 #4503]  INFO -- : Started GET "/" for 190.5.75.41 at 2014-03-06 01:03:02 +0000
+I, [2014-03-06T01:03:02.034168 #4503]  INFO -- : Processing by SuchCommandCenterController#index as HTML
+I, [2014-03-06T01:03:02.290846 #4503]  INFO -- :   Rendered such_command_center/index.html.erb within layouts/application (126.1ms)
+I, [2014-03-06T01:03:02.299184 #4503]  INFO -- : Completed 200 OK in 265ms (Views: 122.5ms | ActiveRecord: 14.4ms)
+I, [2014-03-06T01:03:05.740665 #4505]  INFO -- : Started GET "/assets/scaffolds-ba9867be7e07780f1577af65144b7bfe.css" for 190.5.75.41 at 2014-03-06 01:03:05 +0000
+I, [2014-03-06T01:03:25.110545 #4503]  INFO -- : Started GET "/" for 186.2.136.136 at 2014-03-06 01:03:25 +0000
+I, [2014-03-06T01:03:25.116676 #4503]  INFO -- : Processing by SuchCommandCenterController#index as HTML
+I, [2014-03-06T01:03:25.222221 #4503]  INFO -- :   Rendered such_command_center/index.html.erb within layouts/application (103.0ms)
+I, [2014-03-06T01:03:25.224154 #4503]  INFO -- : Completed 200 OK in 107ms (Views: 96.9ms | ActiveRecord: 8.8ms)
+I, [2014-03-06T01:03:39.116399 #4505]  INFO -- : Started POST "/very_buildings" for 186.2.136.136 at 2014-03-06 01:03:39 +0000
+I, [2014-03-06T01:03:39.121524 #4505]  INFO -- : Processing by VeryBuildingsController#create as HTML
+I, [2014-03-06T01:03:39.121685 #4505]  INFO -- :   Parameters: {"utf8"=>"✓", "authenticity_token"=>"0ZRXuxj6RgrQH09LzYjmrqONJa9eEJJcZUhR1QhYA4c=", "position"=>"4", "such_type"=>"SuchGenerator", "commit"=>"createSuchGenerator for 1k energy"}
+I, [2014-03-06T01:03:39.207904 #4505]  INFO -- : Redirected to http://www.dogefun.com/
+I, [2014-03-06T01:03:39.208460 #4505]  INFO -- : Completed 302 Found in 86ms (ActiveRecord: 5.8ms)
+I, [2014-03-06T01:03:39.492036 #4503]  INFO -- : Started GET "/" for 186.2.136.136 at 2014-03-06 01:03:39 +0000
+I, [2014-03-06T01:03:39.494800 #4503]  INFO -- : Processing by SuchCommandCenterController#index as HTML
+I, [2014-03-06T01:03:39.540132 #4503]  INFO -- :   Rendered such_command_center/index.html.erb within layouts/application (43.4ms)
+I, [2014-03-06T01:03:39.541724 #4503]  INFO -- : Completed 200 OK in 47ms (Views: 39.3ms | ActiveRecord: 6.3ms)
+I, [2014-03-06T01:03:52.945281 #4505]  INFO -- : Started POST "/very_loots" for 190.5.75.41 at 2014-03-06 01:03:52 +0000
+I, [2014-03-06T01:03:52.949384 #4505]  INFO -- : Processing by VeryLootsController#create as HTML
+I, [2014-03-06T01:03:52.949750 #4505]  INFO -- :   Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ag23ZG+jjHCOuM3tNIW2TGybUdlg/KM2oAZZqdwpQlQ=", "commit"=>"much energy loot"}
+I, [2014-03-06T01:03:52.999754 #4505]  INFO -- : Redirected to http://www.dogefun.com/
+I, [2014-03-06T01:03:53.000228 #4505]  INFO -- : Completed 302 Found in 50ms (ActiveRecord: 18.9ms)
+I, [2014-03-06T01:03:53.353191 #4503]  INFO -- : Started GET "/" for 190.5.75.41 at 2014-03-06 01:03:53 +0000
+I, [2014-03-06T01:03:53.355063 #4503]  INFO -- : Processing by SuchCommandCenterController#index as HTML
+I, [2014-03-06T01:03:53.394257 #4503]  INFO -- :   Rendered such_command_center/index.html.erb within layouts/application (37.7ms)
+I, [2014-03-06T01:03:53.395718 #4503]  INFO -- : Completed 200 OK in 40ms (Views: 32.6ms | ActiveRecord: 6.8ms)
+I, [2014-03-06T01:03:53.779591 #4505]  INFO -- : Started POST "/very_loots" for 190.5.75.41 at 2014-03-06 01:03:53 +0000
+I, [2014-03-06T01:03:53.783498 #4505]  INFO -- : Processing by VeryLootsController#create as HTML
+I, [2014-03-06T01:03:53.783611 #4505]  INFO -- :   Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ag23ZG+jjHCOuM3tNIW2TGybUdlg/KM2oAZZqdwpQlQ=", "commit"=>"much energy loot"}
+I, [2014-03-06T01:03:53.789907 #4505]  INFO -- : Redirected to http://www.dogefun.com/
+I, [2014-03-06T01:03:53.790174 #4505]  INFO -- : Completed 302 Found in 6ms (ActiveRecord: 0.8ms)
+I, [2014-03-06T01:03:54.042446 #4503]  INFO -- : Started GET "/" for 190.5.75.41 at 2014-03-06 01:03:54 +0000
+I, [2014-03-06T01:03:54.044246 #4503]  INFO -- : Processing by SuchCommandCenterController#index as HTML
+I, [2014-03-06T01:03:54.082882 #4503]  INFO -- :   Rendered such_command_center/index.html.erb within layouts/application (37.2ms)
+I, [2014-03-06T01:03:54.084267 #4503]  INFO -- : Completed 200 OK in 40ms (Views: 32.3ms | ActiveRecord: 6.6ms)
+I, [2014-03-06T01:03:54.485544 #4505]  INFO -- : Started POST "/very_loots" for 190.5.75.41 at 2014-03-06 01:03:54 +0000
+I, [2014-03-06T01:03:54.487575 #4505]  INFO -- : Processing by VeryLootsController#create as HTML
+I, [2014-03-06T01:03:54.487679 #4505]  INFO -- :   Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ag23ZG+jjHCOuM3tNIW2TGybUdlg/KM2oAZZqdwpQlQ=", "commit"=>"much energy loot"}
+I, [2014-03-06T01:03:54.493242 #4505]  INFO -- : Redirected to http://www.dogefun.com/
+I, [2014-03-06T01:03:54.493571 #4505]  INFO -- : Completed 302 Found in 6ms (ActiveRecord: 0.8ms)
+I, [2014-03-06T01:03:54.961991 #4503]  INFO -- : Started GET "/" for 190.5.75.41 at 2014-03-06 01:03:54 +0000
+I, [2014-03-06T01:03:54.963808 #4503]  INFO -- : Processing by SuchCommandCenterController#index as HTML
+I, [2014-03-06T01:03:55.004161 #4503]  INFO -- :   Rendered such_command_center/index.html.erb within layouts/application (39.0ms)
+I, [2014-03-06T01:03:55.005775 #4503]  INFO -- : Completed 200 OK in 42ms (Views: 33.7ms | ActiveRecord: 7.2ms)
+I, [2014-03-06T01:03:55.337268 #4505]  INFO -- : Started POST "/very_loots" for 190.5.75.41 at 2014-03-06 01:03:55 +0000
+I, [2014-03-06T01:03:55.339316 #4505]  INFO -- : Processing by VeryLootsController#create as HTML
+I, [2014-03-06T01:03:55.339418 #4505]  INFO -- :   Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ag23ZG+jjHCOuM3tNIW2TGybUdlg/KM2oAZZqdwpQlQ=", "commit"=>"much energy loot"}
+I, [2014-03-06T01:03:55.344923 #4505]  INFO -- : Redirected to http://www.dogefun.com/
+I, [2014-03-06T01:03:55.345160 #4505]  INFO -- : Completed 302 Found in 6ms (ActiveRecord: 0.7ms)
+I, [2014-03-06T01:03:55.561094 #4503]  INFO -- : Started GET "/" for 190.5.75.41 at 2014-03-06 01:03:55 +0000
+I, [2014-03-06T01:03:55.563142 #4503]  INFO -- : Processing by SuchCommandCenterController#index as HTML
+I, [2014-03-06T01:03:55.606660 #4503]  INFO -- :   Rendered such_command_center/index.html.erb within layouts/application (41.9ms)
+I, [2014-03-06T01:03:55.608382 #4503]  INFO -- : Completed 200 OK in 45ms (Views: 36.6ms | ActiveRecord: 7.2ms)
+I, [2014-03-06T01:03:56.265153 #4505]  INFO -- : Started GET "/assets/scaffolds-ba9867be7e07780f1577af65144b7bfe.css" for 190.5.75.41 at 2014-03-06 01:03:56 +0000
+I, [2014-03-06T01:04:09.761950 #4505]  INFO -- : Started GET "/phpTest/zologize/axa.php" for 124.47.143.5 at 2014-03-06 01:04:09 +0000
+F, [2014-03-06T01:04:09.765575 #4505] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/phpTest/zologize/axa.php"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:580:in `process_client'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:660:in `worker_loop'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:527:in `spawn_missing_workers'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:153:in `start'
+  unicorn (4.7.0) bin/unicorn:126:in `<top (required)>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `load'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `<main>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `eval'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `<main>'
+
+
+I, [2014-03-06T01:04:10.145073 #4503]  INFO -- : Started GET "/phpMyAdmin/scripts/setup.php" for 124.47.143.5 at 2014-03-06 01:04:10 +0000
+F, [2014-03-06T01:04:10.148708 #4503] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/phpMyAdmin/scripts/setup.php"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:580:in `process_client'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:660:in `worker_loop'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:527:in `spawn_missing_workers'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:153:in `start'
+  unicorn (4.7.0) bin/unicorn:126:in `<top (required)>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `load'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `<main>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `eval'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `<main>'
+
+
+I, [2014-03-06T01:04:10.536800 #4505]  INFO -- : Started GET "/pma/scripts/setup.php" for 124.47.143.5 at 2014-03-06 01:04:10 +0000
+F, [2014-03-06T01:04:10.540290 #4505] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/pma/scripts/setup.php"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:580:in `process_client'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:660:in `worker_loop'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:527:in `spawn_missing_workers'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:153:in `start'
+  unicorn (4.7.0) bin/unicorn:126:in `<top (required)>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `load'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `<main>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `eval'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `<main>'
+
+
+I, [2014-03-06T01:04:10.909939 #4503]  INFO -- : Started GET "/myadmin/scripts/setup.php" for 124.47.143.5 at 2014-03-06 01:04:10 +0000
+F, [2014-03-06T01:04:10.913419 #4503] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/myadmin/scripts/setup.php"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:580:in `process_client'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:660:in `worker_loop'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:527:in `spawn_missing_workers'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:153:in `start'
+  unicorn (4.7.0) bin/unicorn:126:in `<top (required)>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `load'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `<main>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `eval'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `<main>'
+
+
+I, [2014-03-06T01:04:27.314396 #4505]  INFO -- : Started GET "/" for 186.2.136.136 at 2014-03-06 01:04:27 +0000
+I, [2014-03-06T01:04:27.317902 #4505]  INFO -- : Processing by SuchCommandCenterController#index as HTML
+I, [2014-03-06T01:04:27.438852 #4505]  INFO -- :   Rendered such_command_center/index.html.erb within layouts/application (116.4ms)
+I, [2014-03-06T01:04:27.442084 #4505]  INFO -- : Completed 200 OK in 124ms (Views: 115.4ms | ActiveRecord: 6.8ms)
+I, [2014-03-06T01:15:00.826856 #4540]  INFO -- : Started GET "/" for 190.5.75.41 at 2014-03-06 01:15:00 +0000
+I, [2014-03-06T01:15:00.848105 #4540]  INFO -- : Processing by SuchCommandCenterController#index as HTML
+I, [2014-03-06T01:15:01.013748 #4540]  INFO -- :   Rendered such_command_center/index.html.erb within layouts/application (121.9ms)
+I, [2014-03-06T01:15:01.022170 #4540]  INFO -- : Completed 200 OK in 174ms (Views: 119.4ms | ActiveRecord: 13.7ms)
+I, [2014-03-06T01:15:01.505758 #4542]  INFO -- : Started GET "/assets/scaffolds-ba9867be7e07780f1577af65144b7bfe.css" for 190.5.75.41 at 2014-03-06 01:15:01 +0000
+I, [2014-03-06T01:16:29.733368 #4540]  INFO -- : Started GET "/" for 190.5.75.41 at 2014-03-06 01:16:29 +0000
+I, [2014-03-06T01:16:29.737147 #4540]  INFO -- : Processing by SuchCommandCenterController#index as HTML
+I, [2014-03-06T01:16:29.820630 #4540]  INFO -- :   Rendered such_command_center/index.html.erb within layouts/application (81.6ms)
+I, [2014-03-06T01:16:29.822516 #4540]  INFO -- : Completed 200 OK in 85ms (Views: 77.0ms | ActiveRecord: 6.9ms)
+I, [2014-03-06T01:16:32.042118 #4542]  INFO -- : Started GET "/assets/scaffolds-ba9867be7e07780f1577af65144b7bfe.css" for 190.5.75.41 at 2014-03-06 01:16:32 +0000
+I, [2014-03-06T01:16:48.064833 #4573]  INFO -- : Started GET "/" for 190.5.75.41 at 2014-03-06 01:16:48 +0000
+I, [2014-03-06T01:16:48.085074 #4573]  INFO -- : Processing by SuchCommandCenterController#index as HTML
+I, [2014-03-06T01:16:48.253211 #4573]  INFO -- :   Rendered such_command_center/index.html.erb within layouts/application (122.4ms)
+I, [2014-03-06T01:16:48.261643 #4573]  INFO -- : Completed 200 OK in 176ms (Views: 118.4ms | ActiveRecord: 15.1ms)
+I, [2014-03-06T01:16:48.754881 #4570]  INFO -- : Started GET "/assets/scaffolds-ba9867be7e07780f1577af65144b7bfe.css" for 190.5.75.41 at 2014-03-06 01:16:48 +0000
+I, [2014-03-06T01:17:19.526511 #4573]  INFO -- : Started GET "/" for 190.5.75.41 at 2014-03-06 01:17:19 +0000
+I, [2014-03-06T01:17:19.530612 #4573]  INFO -- : Processing by SuchCommandCenterController#index as HTML
+I, [2014-03-06T01:17:19.624300 #4573]  INFO -- :   Rendered such_command_center/index.html.erb within layouts/application (91.8ms)
+I, [2014-03-06T01:17:19.626289 #4573]  INFO -- : Completed 200 OK in 95ms (Views: 85.1ms | ActiveRecord: 9.1ms)
+I, [2014-03-06T01:17:20.023851 #4570]  INFO -- : Started GET "/assets/scaffolds-ba9867be7e07780f1577af65144b7bfe.css" for 190.5.75.41 at 2014-03-06 01:17:20 +0000
+I, [2014-03-06T01:18:31.982833 #4573]  INFO -- : Started GET "/" for 190.5.75.41 at 2014-03-06 01:18:31 +0000
+I, [2014-03-06T01:18:31.985414 #4573]  INFO -- : Processing by SuchCommandCenterController#index as HTML
+I, [2014-03-06T01:18:32.026578 #4573]  INFO -- :   Rendered such_command_center/index.html.erb within layouts/application (39.2ms)
+I, [2014-03-06T01:18:32.028108 #4573]  INFO -- : Completed 200 OK in 42ms (Views: 34.2ms | ActiveRecord: 7.0ms)
+I, [2014-03-06T01:18:32.999550 #4570]  INFO -- : Started GET "/assets/scaffolds-ba9867be7e07780f1577af65144b7bfe.css" for 190.5.75.41 at 2014-03-06 01:18:32 +0000
+I, [2014-03-06T01:18:37.952908 #4570]  INFO -- : Started GET "/such_command_center/wow_visit/1" for 190.5.75.41 at 2014-03-06 01:18:37 +0000
+I, [2014-03-06T01:18:37.958720 #4570]  INFO -- : Processing by SuchCommandCenterController#wow_visit as HTML
+I, [2014-03-06T01:18:37.958856 #4570]  INFO -- :   Parameters: {"id"=>"1"}
+I, [2014-03-06T01:18:38.059900 #4570]  INFO -- :   Rendered such_command_center/wow_visit.html.erb within layouts/application (55.1ms)
+I, [2014-03-06T01:18:38.068354 #4570]  INFO -- : Completed 200 OK in 109ms (Views: 57.6ms | ActiveRecord: 8.5ms)
+I, [2014-03-06T01:18:38.519603 #4573]  INFO -- : Started GET "/assets/scaffolds-ba9867be7e07780f1577af65144b7bfe.css" for 190.5.75.41 at 2014-03-06 01:18:38 +0000
+I, [2014-03-06T01:18:42.202639 #4570]  INFO -- : Started GET "/" for 190.5.75.41 at 2014-03-06 01:18:42 +0000
+I, [2014-03-06T01:18:42.207013 #4570]  INFO -- : Processing by SuchCommandCenterController#index as HTML
+I, [2014-03-06T01:18:42.293674 #4570]  INFO -- :   Rendered such_command_center/index.html.erb within layouts/application (83.9ms)
+I, [2014-03-06T01:18:42.357248 #4570]  INFO -- : Completed 200 OK in 150ms (Views: 139.5ms | ActiveRecord: 9.1ms)
+I, [2014-03-06T01:18:42.725177 #4573]  INFO -- : Started GET "/assets/scaffolds-ba9867be7e07780f1577af65144b7bfe.css" for 190.5.75.41 at 2014-03-06 01:18:42 +0000
+I, [2014-03-06T01:20:18.270518 #4622]  INFO -- : Started GET "/" for 190.5.75.41 at 2014-03-06 01:20:18 +0000
+I, [2014-03-06T01:20:18.286341 #4622]  INFO -- : Processing by SuchCommandCenterController#index as HTML
+I, [2014-03-06T01:20:18.411035 #4622]  INFO -- :   Rendered such_command_center/index.html.erb within layouts/application (97.6ms)
+I, [2014-03-06T01:20:18.417559 #4622]  INFO -- : Completed 200 OK in 131ms (Views: 93.9ms | ActiveRecord: 12.4ms)
+I, [2014-03-06T01:20:18.806331 #4625]  INFO -- : Started GET "/assets/scaffolds-ba9867be7e07780f1577af65144b7bfe.css" for 190.5.75.41 at 2014-03-06 01:20:18 +0000
+I, [2014-03-06T01:22:37.199994 #4622]  INFO -- : Started GET "/such_command_center/wow_visit/1" for 190.5.75.41 at 2014-03-06 01:22:37 +0000
+I, [2014-03-06T01:22:37.204746 #4622]  INFO -- : Processing by SuchCommandCenterController#wow_visit as HTML
+I, [2014-03-06T01:22:37.204853 #4622]  INFO -- :   Parameters: {"id"=>"1"}
+I, [2014-03-06T01:22:37.219165 #4622]  INFO -- :   Rendered such_command_center/wow_visit.html.erb within layouts/application (11.5ms)
+I, [2014-03-06T01:22:37.280782 #4622]  INFO -- : Completed 200 OK in 76ms (Views: 71.3ms | ActiveRecord: 2.8ms)
+I, [2014-03-06T01:22:38.363071 #4625]  INFO -- : Started GET "/assets/scaffolds-ba9867be7e07780f1577af65144b7bfe.css" for 190.5.75.41 at 2014-03-06 01:22:38 +0000
+I, [2014-03-06T01:22:41.384091 #4622]  INFO -- : Started GET "/" for 190.5.75.41 at 2014-03-06 01:22:41 +0000
+I, [2014-03-06T01:22:41.386967 #4622]  INFO -- : Processing by SuchCommandCenterController#index as HTML
+I, [2014-03-06T01:22:41.431587 #4622]  INFO -- :   Rendered such_command_center/index.html.erb within layouts/application (42.6ms)
+I, [2014-03-06T01:22:41.433542 #4622]  INFO -- : Completed 200 OK in 46ms (Views: 37.9ms | ActiveRecord: 7.2ms)
+I, [2014-03-06T01:22:44.738286 #4625]  INFO -- : Started GET "/assets/scaffolds-ba9867be7e07780f1577af65144b7bfe.css" for 190.5.75.41 at 2014-03-06 01:22:44 +0000
+I, [2014-03-06T01:22:54.586374 #4625]  INFO -- : Started GET "/" for 190.5.75.41 at 2014-03-06 01:22:54 +0000
+I, [2014-03-06T01:22:54.590473 #4625]  INFO -- : Processing by SuchCommandCenterController#index as HTML
+I, [2014-03-06T01:22:54.750538 #4625]  INFO -- :   Rendered such_command_center/index.html.erb within layouts/application (121.9ms)
+I, [2014-03-06T01:22:54.754143 #4625]  INFO -- : Completed 200 OK in 163ms (Views: 114.8ms | ActiveRecord: 13.2ms)
+I, [2014-03-06T01:22:55.069603 #4622]  INFO -- : Started GET "/assets/scaffolds-ba9867be7e07780f1577af65144b7bfe.css" for 190.5.75.41 at 2014-03-06 01:22:55 +0000
+I, [2014-03-06T01:25:14.486930 #4625]  INFO -- : Started GET "/such_command_center/wow_visit/1" for 190.5.75.41 at 2014-03-06 01:25:14 +0000
+I, [2014-03-06T01:25:14.491492 #4625]  INFO -- : Processing by SuchCommandCenterController#wow_visit as HTML
+I, [2014-03-06T01:25:14.491604 #4625]  INFO -- :   Parameters: {"id"=>"1"}
+I, [2014-03-06T01:25:14.565396 #4625]  INFO -- :   Rendered such_command_center/wow_visit.html.erb within layouts/application (71.1ms)
+I, [2014-03-06T01:25:14.568632 #4625]  INFO -- : Completed 200 OK in 77ms (Views: 70.4ms | ActiveRecord: 5.2ms)
+I, [2014-03-06T01:25:15.502327 #4622]  INFO -- : Started GET "/assets/scaffolds-ba9867be7e07780f1577af65144b7bfe.css" for 190.5.75.41 at 2014-03-06 01:25:15 +0000
+I, [2014-03-06T01:25:17.229108 #4622]  INFO -- : Started GET "/" for 190.5.75.41 at 2014-03-06 01:25:17 +0000
+I, [2014-03-06T01:25:17.231045 #4622]  INFO -- : Processing by SuchCommandCenterController#index as HTML
+I, [2014-03-06T01:25:17.270480 #4622]  INFO -- :   Rendered such_command_center/index.html.erb within layouts/application (37.9ms)
+I, [2014-03-06T01:25:17.271692 #4622]  INFO -- : Completed 200 OK in 40ms (Views: 33.0ms | ActiveRecord: 6.6ms)
+I, [2014-03-06T01:25:17.801859 #4625]  INFO -- : Started GET "/assets/scaffolds-ba9867be7e07780f1577af65144b7bfe.css" for 190.5.75.41 at 2014-03-06 01:25:17 +0000
+I, [2014-03-06T01:33:27.987863 #4666]  INFO -- : Started GET "/" for 190.5.75.41 at 2014-03-06 01:33:27 +0000
+I, [2014-03-06T01:33:28.010795 #4666]  INFO -- : Processing by SuchCommandCenterController#index as HTML
+I, [2014-03-06T01:33:28.137723 #4666]  INFO -- :   Rendered such_command_center/index.html.erb within layouts/application (88.2ms)
+I, [2014-03-06T01:33:28.143423 #4666]  INFO -- : Completed 200 OK in 132ms (Views: 86.7ms | ActiveRecord: 10.2ms)
+I, [2014-03-06T01:33:28.556071 #4663]  INFO -- : Started GET "/assets/scaffolds-ba9867be7e07780f1577af65144b7bfe.css" for 190.5.75.41 at 2014-03-06 01:33:28 +0000
+I, [2014-03-06T01:33:53.083300 #4696]  INFO -- : Started GET "/" for 190.5.75.41 at 2014-03-06 01:33:53 +0000
+I, [2014-03-06T01:33:53.096859 #4696]  INFO -- : Processing by SuchCommandCenterController#index as HTML
+I, [2014-03-06T01:33:53.208555 #4696]  INFO -- :   Rendered such_command_center/index.html.erb within layouts/application (84.5ms)
+I, [2014-03-06T01:33:53.216231 #4696]  INFO -- : Completed 200 OK in 119ms (Views: 85.2ms | ActiveRecord: 9.0ms)
+I, [2014-03-06T01:33:54.784462 #4693]  INFO -- : Started GET "/assets/scaffolds-ba9867be7e07780f1577af65144b7bfe.css" for 190.5.75.41 at 2014-03-06 01:33:54 +0000
+I, [2014-03-06T01:34:45.120242 #4723]  INFO -- : Started GET "/" for 190.5.75.41 at 2014-03-06 01:34:45 +0000
+I, [2014-03-06T01:34:45.134449 #4723]  INFO -- : Processing by SuchCommandCenterController#index as HTML
+I, [2014-03-06T01:34:45.245977 #4723]  INFO -- :   Rendered such_command_center/index.html.erb within layouts/application (85.9ms)
+I, [2014-03-06T01:34:45.252158 #4723]  INFO -- : Completed 200 OK in 117ms (Views: 84.4ms | ActiveRecord: 9.4ms)
+I, [2014-03-06T01:34:47.031269 #4726]  INFO -- : Started GET "/assets/scaffolds-ba9867be7e07780f1577af65144b7bfe.css" for 190.5.75.41 at 2014-03-06 01:34:47 +0000
+I, [2014-03-06T01:35:31.181403 #4756]  INFO -- : Started GET "/" for 190.5.75.41 at 2014-03-06 01:35:31 +0000
+I, [2014-03-06T01:35:31.197338 #4756]  INFO -- : Processing by SuchCommandCenterController#index as HTML
+I, [2014-03-06T01:35:31.347906 #4756]  INFO -- :   Rendered such_command_center/index.html.erb within layouts/application (115.2ms)
+I, [2014-03-06T01:35:31.355674 #4756]  INFO -- : Completed 200 OK in 158ms (Views: 113.2ms | ActiveRecord: 12.8ms)
+I, [2014-03-06T01:35:31.736386 #4753]  INFO -- : Started GET "/assets/scaffolds-ba9867be7e07780f1577af65144b7bfe.css" for 190.5.75.41 at 2014-03-06 01:35:31 +0000
+I, [2014-03-06T01:37:06.158410 #4786]  INFO -- : Started GET "/" for 190.5.75.41 at 2014-03-06 01:37:06 +0000
+I, [2014-03-06T01:37:06.184145 #4786]  INFO -- : Processing by SuchCommandCenterController#index as HTML
+I, [2014-03-06T01:37:06.438436 #4786]  INFO -- :   Rendered such_command_center/index.html.erb within layouts/application (199.9ms)
+I, [2014-03-06T01:37:06.449044 #4786]  INFO -- : Completed 200 OK in 265ms (Views: 197.1ms | ActiveRecord: 19.4ms)
+I, [2014-03-06T01:37:06.779608 #4786]  INFO -- : Started GET "/assets/scaffolds-ba9867be7e07780f1577af65144b7bfe.css" for 190.5.75.41 at 2014-03-06 01:37:06 +0000
+I, [2014-03-06T01:40:06.003473 #4836]  INFO -- : Started GET "/" for 190.5.75.41 at 2014-03-06 01:40:06 +0000
+I, [2014-03-06T01:40:06.018043 #4836]  INFO -- : Processing by SuchCommandCenterController#index as HTML
+I, [2014-03-06T01:40:06.045348 #4836]  INFO -- :   Rendered such_command_center/index.html.erb within layouts/application (2.7ms)
+I, [2014-03-06T01:40:06.045601 #4836]  INFO -- : Completed 500 Internal Server Error in 27ms
+F, [2014-03-06T01:40:06.049852 #4836] FATAL -- : 
+ActionView::Template::Error (/home/rails/app/views/such_command_center/index.html.erb:131: unterminated string meets end of file
+/home/rails/app/views/such_command_center/index.html.erb:131: syntax error, unexpected end-of-input, expecting ')'):
+    128:           <td><%= u.energy %></td>
+    129:           <td><%= u.units %></td>
+    130:           <td><%= rival_score %></td>
+    131:           <td><a href="/such_command_center/wow_visit/<%= u.id %>">shibe visit</a>
+    132:         </tr>
+    133:       <% end %>
+    134:     <% end %>
+  actionpack (4.0.2) lib/action_view/template.rb:299:in `module_eval'
+  actionpack (4.0.2) lib/action_view/template.rb:299:in `compile'
+  actionpack (4.0.2) lib/action_view/template.rb:248:in `block in compile!'
+  actionpack (4.0.2) lib/action_view/template.rb:236:in `synchronize'
+  actionpack (4.0.2) lib/action_view/template.rb:236:in `compile!'
+  actionpack (4.0.2) lib/action_view/template.rb:142:in `block in render'
+  activesupport (4.0.2) lib/active_support/notifications.rb:161:in `instrument'
+  actionpack (4.0.2) lib/action_view/template.rb:141:in `render'
+  actionpack (4.0.2) lib/action_view/renderer/template_renderer.rb:49:in `block (2 levels) in render_template'
+  actionpack (4.0.2) lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+  activesupport (4.0.2) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.0.2) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.0.2) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.0.2) lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+  actionpack (4.0.2) lib/action_view/renderer/template_renderer.rb:48:in `block in render_template'
+  actionpack (4.0.2) lib/action_view/renderer/template_renderer.rb:56:in `render_with_layout'
+  actionpack (4.0.2) lib/action_view/renderer/template_renderer.rb:47:in `render_template'
+  actionpack (4.0.2) lib/action_view/renderer/template_renderer.rb:17:in `render'
+  actionpack (4.0.2) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionpack (4.0.2) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionpack (4.0.2) lib/abstract_controller/rendering.rb:127:in `_render_template'
+  actionpack (4.0.2) lib/action_controller/metal/streaming.rb:219:in `_render_template'
+  actionpack (4.0.2) lib/abstract_controller/rendering.rb:120:in `render_to_body'
+  actionpack (4.0.2) lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+  actionpack (4.0.2) lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+  actionpack (4.0.2) lib/abstract_controller/rendering.rb:97:in `render'
+  actionpack (4.0.2) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.0.2) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /usr/local/rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/benchmark.rb:296:in `realtime'
+  activesupport (4.0.2) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.0.2) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.0.2) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.0.2) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.0.2) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.0.2) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.0.2) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:403:in `_run__1819389078355275429__process_action__callbacks'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.2) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (4.0.2) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.0.2) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.0.2) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.0.2) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.0.2) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+  activerecord (4.0.2) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.0.2) lib/abstract_controller/base.rb:136:in `process'
+  actionpack (4.0.2) lib/abstract_controller/rendering.rb:44:in `process'
+  actionpack (4.0.2) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.0.2) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.0.2) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.0.2) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.0.2) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.0.2) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.0.2) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.2) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.2) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.2) lib/action_dispatch/routing/route_set.rb:680:in `call'
+  omniauth (1.2.1) lib/omniauth/strategy.rb:186:in `call!'
+  omniauth (1.2.1) lib/omniauth/strategy.rb:164:in `call'
+  omniauth (1.2.1) lib/omniauth/builder.rb:59:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.2) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:373:in `_run__1272555749818299270__call__callbacks'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:580:in `process_client'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:660:in `worker_loop'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:527:in `spawn_missing_workers'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:153:in `start'
+  unicorn (4.7.0) bin/unicorn:126:in `<top (required)>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `load'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `<main>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `eval'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `<main>'
+
+
+I, [2014-03-06T01:41:00.989580 #4864]  INFO -- : Started GET "/" for 190.5.75.41 at 2014-03-06 01:41:00 +0000
+I, [2014-03-06T01:41:01.009778 #4864]  INFO -- : Processing by SuchCommandCenterController#index as HTML
+I, [2014-03-06T01:41:01.167686 #4864]  INFO -- :   Rendered such_command_center/index.html.erb within layouts/application (116.0ms)
+I, [2014-03-06T01:41:01.168075 #4864]  INFO -- : Completed 500 Internal Server Error in 158ms
+F, [2014-03-06T01:41:01.172235 #4864] FATAL -- : 
+ActionView::Template::Error (no implicit conversion of Fixnum into String):
+    118:       <th >wow! units </th>
+    119:       <th >many score</th>
+    120:     </tr>
+    121:     <% User.where("energy+units*10>"+current_score+"-1000 AND energy+units*10<"+current_score+"+1000").limit(10).each do |u| %>
+    122:       <% rival_rank = u.getRank(u.id) %>
+    123:       <% rival_score = u.energy+u.units*10 %>
+    124:       <% if current_rank==rival_rank %>
+  app/views/such_command_center/index.html.erb:121:in `+'
+  app/views/such_command_center/index.html.erb:121:in `_app_views_such_command_center_index_html_erb___4019951066633245630_34124560'
+
+
+I, [2014-03-06T01:41:01.990510 #4867]  INFO -- : Started GET "/" for 190.5.75.41 at 2014-03-06 01:41:01 +0000
+I, [2014-03-06T01:41:02.012752 #4867]  INFO -- : Processing by SuchCommandCenterController#index as HTML
+I, [2014-03-06T01:41:02.171848 #4867]  INFO -- :   Rendered such_command_center/index.html.erb within layouts/application (117.3ms)
+I, [2014-03-06T01:41:02.172227 #4867]  INFO -- : Completed 500 Internal Server Error in 159ms
+F, [2014-03-06T01:41:02.176378 #4867] FATAL -- : 
+ActionView::Template::Error (no implicit conversion of Fixnum into String):
+    118:       <th >wow! units </th>
+    119:       <th >many score</th>
+    120:     </tr>
+    121:     <% User.where("energy+units*10>"+current_score+"-1000 AND energy+units*10<"+current_score+"+1000").limit(10).each do |u| %>
+    122:       <% rival_rank = u.getRank(u.id) %>
+    123:       <% rival_score = u.energy+u.units*10 %>
+    124:       <% if current_rank==rival_rank %>
+  app/views/such_command_center/index.html.erb:121:in `+'
+  app/views/such_command_center/index.html.erb:121:in `_app_views_such_command_center_index_html_erb___4019951066633245630_34124360'
+
+
+I, [2014-03-06T01:41:53.911948 #4898]  INFO -- : Started GET "/" for 190.5.75.41 at 2014-03-06 01:41:53 +0000
+I, [2014-03-06T01:41:53.930614 #4898]  INFO -- : Processing by SuchCommandCenterController#index as HTML
+I, [2014-03-06T01:41:54.086342 #4898]  INFO -- :   Rendered such_command_center/index.html.erb within layouts/application (112.8ms)
+I, [2014-03-06T01:41:54.094222 #4898]  INFO -- : Completed 200 OK in 163ms (Views: 111.6ms | ActiveRecord: 11.5ms)
+I, [2014-03-06T01:41:54.504566 #4895]  INFO -- : Started GET "/assets/scaffolds-ba9867be7e07780f1577af65144b7bfe.css" for 190.5.75.41 at 2014-03-06 01:41:54 +0000
+I, [2014-03-06T01:45:24.664314 #4926]  INFO -- : Started GET "/" for 190.5.75.41 at 2014-03-06 01:45:24 +0000
+I, [2014-03-06T01:45:24.685984 #4926]  INFO -- : Processing by SuchCommandCenterController#index as HTML
+I, [2014-03-06T01:45:24.853876 #4926]  INFO -- :   Rendered such_command_center/index.html.erb within layouts/application (121.1ms)
+I, [2014-03-06T01:45:24.854283 #4926]  INFO -- : Completed 500 Internal Server Error in 168ms
+F, [2014-03-06T01:45:24.858508 #4926] FATAL -- : 
+ActionView::Template::Error (no implicit conversion of Fixnum into String):
+    119:       <th >many score</th>
+    120:     </tr>
+    121:     <% attack_offset = 0 %>
+    122:     <% User.where("energy+units*10>"+current_score.to_s+"-"+attack_offset+" AND energy+units*10<"+current_score.to_s+"+"+attack_offset).limit(10).each do |u| %>
+    123:       <% rival_rank = u.getRank(u.id) %>
+    124:       <% rival_score = u.energy+u.units*10 %>
+    125:       <% if current_rank==rival_rank %>
+  app/views/such_command_center/index.html.erb:122:in `+'
+  app/views/such_command_center/index.html.erb:122:in `_app_views_such_command_center_index_html_erb__2627022109306256807_30691880'
+
+
+I, [2014-03-06T01:46:11.813238 #4956]  INFO -- : Started GET "/" for 190.5.75.41 at 2014-03-06 01:46:11 +0000
+I, [2014-03-06T01:46:11.832856 #4956]  INFO -- : Processing by SuchCommandCenterController#index as HTML
+I, [2014-03-06T01:46:11.960318 #4956]  INFO -- :   Rendered such_command_center/index.html.erb within layouts/application (82.7ms)
+I, [2014-03-06T01:46:11.965522 #4956]  INFO -- : Completed 200 OK in 132ms (Views: 81.4ms | ActiveRecord: 9.0ms)
+I, [2014-03-06T01:46:12.230227 #4959]  INFO -- : Started GET "/assets/scaffolds-ba9867be7e07780f1577af65144b7bfe.css" for 190.5.75.41 at 2014-03-06 01:46:12 +0000
+I, [2014-03-06T01:46:15.817419 #4956]  INFO -- : Started GET "/" for 190.5.75.41 at 2014-03-06 01:46:15 +0000
+I, [2014-03-06T01:46:15.828559 #4956]  INFO -- : Processing by SuchCommandCenterController#index as HTML
+I, [2014-03-06T01:46:15.941709 #4956]  INFO -- :   Rendered such_command_center/index.html.erb within layouts/application (109.0ms)
+I, [2014-03-06T01:46:15.943458 #4956]  INFO -- : Completed 200 OK in 115ms (Views: 104.9ms | ActiveRecord: 7.2ms)
+I, [2014-03-06T01:46:16.277152 #4959]  INFO -- : Started GET "/assets/scaffolds-ba9867be7e07780f1577af65144b7bfe.css" for 190.5.75.41 at 2014-03-06 01:46:16 +0000
+I, [2014-03-06T01:46:59.426053 #4989]  INFO -- : Started GET "/" for 190.5.75.41 at 2014-03-06 01:46:59 +0000
+I, [2014-03-06T01:46:59.439034 #4989]  INFO -- : Processing by SuchCommandCenterController#index as HTML
+I, [2014-03-06T01:46:59.545333 #4989]  INFO -- :   Rendered such_command_center/index.html.erb within layouts/application (80.5ms)
+I, [2014-03-06T01:46:59.550918 #4989]  INFO -- : Completed 200 OK in 112ms (Views: 79.7ms | ActiveRecord: 8.3ms)
+I, [2014-03-06T01:46:59.878702 #4986]  INFO -- : Started GET "/assets/scaffolds-ba9867be7e07780f1577af65144b7bfe.css" for 190.5.75.41 at 2014-03-06 01:46:59 +0000
